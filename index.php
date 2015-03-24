@@ -8,7 +8,7 @@ $color = getRandomColor();
 $backgroundColor = '#ffffff';
 $textColor = '#333333';
 
-// overwrite background color if requested
+// change to dark theme if requested
 if (isset($_GET['dark']) && $_GET['dark'] === 'true')
 {
     $backgroundColor = '#555';
